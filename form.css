@@ -1,0 +1,150 @@
+#form 
+{
+    border: 4px solid;
+    border-style:ridge;
+}
+#form input:hover
+{
+    border:3px solid;
+}
+#form textarea:hover
+{
+    border:3px solid;
+}
+
+#btn:hover
+{
+    border: 2px solid;
+    border-color: black;
+}
+
+form #search:hover
+{
+    border:2px solid;
+}
+
+#img
+{
+    height: 4.0rem;
+    width: 4.3rem;
+    border: 1px solid;
+    border-color: antiquewhite;
+}
+
+.home .content a
+{
+    background-color:#33CC00;
+    color:black;
+    border:2px solid black;
+}
+
+/*.heading 
+{
+    font-size:2.5rem;
+    align-items: center;
+    background-color: #CC0066;
+    display: inline;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}*/
+
+.book 
+{
+    background-image: url(Gr.jpg);
+}
+.packages .card {
+    border: 3px solid black;
+}
+.packages .card:hover
+{
+   border-color:rgb(99, 250, 11);
+   box-shadow:3px 4px rgb(99, 250, 11);
+}
+.img-container
+{
+    margin:0.1rem;
+    position: relative;
+}
+.img-content
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+.img-content{
+    font-size: 1.2rem;
+}
+.img-container::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(150, 148, 148, 0.871);
+    opacity: 0;
+    z-index: 1;
+
+    transform: scaleY(0);
+    transform-origin: 100% 100%;
+    transition: all 0.3s ease-in-out;
+}
+.img-container:hover::after{
+    opacity: 1;
+    transform: scaleY(1);
+}
+.img-container:hover .img-container{
+    opacity: 1;
+    top:40%;
+}
+.lead
+{
+    color: green;
+}
+#slot{
+    color: red;
+}
+.Services #one:hover
+{
+    box-shadow: 1px 1px 10px 4px orange;
+}
+.Services #two:hover
+{
+    box-shadow: 1px 1px 10px 4px green;
+}
+.Services #three:hover
+{
+    box-shadow: 1px 1px 10px 4px red;
+}
+.Services #four:hover
+{
+    box-shadow: 1px 1px 10px 4px rgb(8, 50, 235);
+}
+.Services #five:hover
+{
+    box-shadow: 1px 1px 10px 4px rgb(225, 7, 245);
+}
+.Services #six:hover
+{
+    box-shadow: 1px 1px 10px 4px rgb(21, 253, 215);
+}
+#footer
+{
+    background-color: #45526e;
+}
+.links{
+    color: antiquewhite;
+}
+.about .card
+{
+    border: 1px solid;
+}
+.about .card:hover
+{
+    box-shadow: 1px 1px 10px 4px rgb(22, 107, 5);
+}

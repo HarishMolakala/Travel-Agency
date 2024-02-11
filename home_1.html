@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROjECT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!---Navbarstart--->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+    <a class="navbar-brand" href="home_1.html"><img src="Logo.jpg"  id="img"><b style="font-family:'Barriecito', cursive; font-size:25px;" id="text">CH <span>T</span>ravels</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">   
+    <ul class="navbar-nav justify-content-start">
+        <li class="nav-item">
+          <a class="nav-link active" href="home_1.html">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#book">Booking</a>
+        </li> 
+
+        <li class="nav-item ">
+          <a class="nav-link" href="#packages">Packages</a>
+        </li> 
+        <li class="nav-item ">
+          <a class="nav-link" href="#services">Services</a>
+        </li> 
+        <li class="nav-item ">
+          <a class="nav-link" href="#gallary">Gallary</a>
+        </li> 
+        <li class="nav-item ">
+          <a class="nav-link" href="#about">About</a>
+        </li> 
+        
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search" id="search">
+        <button class="btn btn-primary" type="button" id="btn">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <!---Navbarend--->
+
+
+<!---home section start--->
+<div class="home ">
+    <div class="content">
+        <h5>Welcome To World</h5>
+        <h1>Visit <span class="changecontent"></span></h1>
+        <br>
+        <a href="#book" class="">Book place</a>
+    </div>
+</div>
+<!---home section end--->
+<marquee direction="left">
+  <p class="lead"><b>@Jobs Fill Your Pockets,Adeventures Fill Your Soul.........</b></p><b id="slot">Book Your Slot...</b>
+</marquee>
+
+<!---section Book start--->
+<section class="book" id="book">
+  <div class="container"> 
+    <div class="main-text">
+      <h1 class="heading"><span>B</span>ooking</h1>
+     </div>
+     <div class="row">
+      <div class="col-md-6 py-3 py-md-0">
+        <div class="card">
+          <img src="tr.png" alt=" " >
+        </div>
+        </div>
+        <div class="col-md-6 py-md-0">
+            <form action ="booking.php" defer method="post" id="form"> 
+              <fieldset class="p-3">
+              <input type="text" class="form-control" name="To_Where" placeholder="To Where" required><br>
+              <input type="text" class="form-control" name="How_Many" placeholder="How Many" required><br>
+              <input type="date" class="form-control" name="Arrival" placeholder="Arrivals" required><br>
+              <input type="date" class="form-control" name="Leaving" placeholder="Leaving" required><br>
+              <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name &Details"></textarea>
+              <button type="submit" value="Book Now" class="submit">Book Now</button>
+              </fieldset>
+            </form>
+        </div>
+      </div>
+    
+  </div>
+</section> 
+
+<!---section packages start--->
+<section class="packages" id="packages">
+  <div class="container">
+    <div class="main-txt">
+      <h1><span>P</span>ackages</h1>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card p-2">
+          <img src="uk.jpg" alt="">
+          <div class="card-body">
+            <h3>United Kingdom</h3>
+            <hr>
+            <div>
+              <div class="star">
+              <i class="fa fa-star checked"></i>
+              <i class="fa fa-star checked"></i>
+              <i class="fa fa-star checked"></i>
+              <i class="fa fa-star checked"></i>
+              <i class="fa fa-star "></i>
+              <small>208 Ratings</small>
+            </div>
+            <p>One of the most significant places to visit in UK in summer is the<i><b> Big Ben.</b></i>
+              The Houses of Parliament's iconic clock tower.<br>              
+            <b>Timings:</b>9:00 AM to 5:00 PM
+              <b>Location:</b>Westminster,London SW1A 0AA,UK</p>
+           <h6><b>Price:</b><span>&#8377;</span>70,000-1,30,000</h6> 
+           <a href="#book">Book Now</a>
+           </div>
+        </div>
+      </div>
+
+
+      
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card p-2">
+        <img src="fr.jpg" alt="">
+        <div class="card-body">
+          <h3>France</h3>
+          <hr>
+          <div class="star">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star "></i>
+            <i class="fa fa-star "></i>
+            <small>2004 Ratings</small>
+          </div>
+          <p>The symbol of Paris, the <b>Eiffel Tower </b>is a feat of ingenuity as much as it is a famous landmark.<br>
+          <b>Location:</b>Champ de Mars, 5 Av. Anatole France, 75007 Paris, France
+          </p>
+         <h6><strong>Price:</strong><span>&#8377;</span>1,30,000-2,00,000</h6> 
+         <a href="#book">Book Now</a>
+      </div>
+    </div>
+
+
+    
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card p-2">
+      <img src="in1.jpg" alt="">
+      <div class="card-body">
+        <h3>India</h3>
+        <hr>
+        <div class="star">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star-half-alt checked"></i>
+          <small>84536 Ratings</small>
+        </div>
+        <p><b>Taj Mahal </b>
+        Built Mughal emperor Shah Jahan in memory of his wife.<br>
+        <b>Location:</b>Dharmapuri,Forest Colony,Tajganj,Agra,Uttar Pradesh
+        </p>
+       <h6><strong>Price:</strong><span>&#8377;</span>50,000-70,000</h6> 
+       <a href="#book">Book Now</a>
+    </div>
+  </div>
+
+
+  
+</div>
+<div class="row" style="margin-top: 30px;">
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card p-2">
+      <img src="ny.jpg" alt="">
+      <div class="card-body">
+        <h3>New York</h3>
+        <hr>
+        <div class="star">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star "></i>
+          <i class="fa fa-star "></i>
+          <small>3456 Ratings</small>
+        </div>
+        <p style="font-size:19px;"><b>The Metropolitan Museum of Art</b> <br>Art,architecture,and gardens of Europe.<br>
+          <b>Timings:</b> Sunday–Tuesday and Thursday: 10 am–5 pm<br>
+          <b>Location:</b>1000 5th Ave, New York, NY 10028, United States
+        </p>
+       <h6><strong>Price:</strong><span>&#8377;</span>2,00,000-5,00,000</h6> 
+       <a href="#book">Book Now</a>
+    </div>
+  </div>
+
+
+  
+</div>
+<div class="col-md-4 py-3 py-md-0">
+  <div class="card p-2">
+    <img src="ps.jpeg" alt="">
+    <div class="card-body">
+      <h3>Pakistan</h3>
+      <hr>
+      <div class="star">
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star "></i>
+        <i class="fa fa-star "></i>
+        <i class="fa fa-star "></i>
+        <small>7242 Ratings</small>
+      </div>
+      <p>
+        The <b>Faisal Mosque</b> is a mosque in Islamabad.It is located in the national capital city of Islamabad.<br>
+      <b>Location:</b>Shah Faisal Ave,E-8,Islamabad Capital Territory 44000,Pakistan
+      </p>
+     <h6><strong>Price:</strong><span>&#8377;</span>40,000-60,000</h6> 
+     <a href="#book">Book Now</a>
+  </div>
+</div>
+
+
+
+</div>
+<div class="col-md-4 py-3 py-md-0">
+<div class="card p-2">
+  <img src="it1.jpg" alt="">
+  <div class="card-body">
+    <h3>Italy</h3>
+    <hr>
+    <div class="star">
+      <i class="fa fa-star checked"></i>
+      <i class="fa fa-star checked"></i>
+      <i class="fa fa-star checked"></i>
+      <i class="fa fa-star "></i>
+      <i class="fa fa-star "></i>
+      <small>34526 Ratings</small>
+    </div>
+    <p>
+    The tradition of tossing coins into the <b>Trevi Fountain</b> gained even more popularity film "Three Coins in the Fountain." <br>
+    <b>Location:</b>Piazza di Trevi, 00187 Roma RM, Italy
+    </p>
+   <h6><strong>Price:</strong><span>&#8377;</span>90,000-1,20,000</h6> 
+   <a href="#book">Book Now</a>
+</div>
+</div>
+
+
+
+</div>
+<div class="row" style="margin-top: 30px;">
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card p-2">
+      <img src="sa.jpg" alt="">
+      <div class="card-body">
+        <h3>Saudi Arabia</h3>
+        <hr>
+        <div class="star">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star "></i>
+          <i class="fa fa-star "></i>
+          <small>70341 Ratings</small>
+        </div>
+        <p>
+          In Islamic terminology,<b>Hajj</b> is a pilgrimage made to the Kaaba,the "House of Allah",in the sacred city of Mecca in Saudi Arabia.<br>
+          <b>Location:</b>Mecca in Saudi Arabia 
+        </p>
+       <h6><strong>Price:</strong><span>&#8377;</span>40,000-60,000</h6> 
+       <a href="#book">Book Now</a>
+    </div>
+  </div>
+
+
+  
+</div>
+<div class="col-md-4 py-3 py-md-0">
+  <div class="card p-2 py-4">
+    <img src="pu.jpeg" alt="">
+    <div class="card-body">
+      <h3>Peru</h3>
+      <hr>
+      <div class="star">
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <small>322 Ratings</small>
+      </div>
+      <p>
+      <b>Machu Picchu</b> is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain ridge.<br>
+      <b>Location:</b>Eastern Cordillera of southern Peru 
+      </p>
+      <h6><strong>Price:</strong><span>&#8377;</span>30,000-90,000</h6>
+     <a href="#book">Book Now</a>
+  </div>
+</div>
+
+
+
+</div>
+<div class="col-md-4 py-3 py-md-0">
+<div class="card p-2">
+  <img src="nz.jpg" alt="">
+  <div class="card-body">
+    <h3>New Zealand</h3>
+    <hr>
+    <div class="star">
+      <i class="fa fa-star checked"></i>
+      <i class="fa fa-star checked"></i>
+      <i class="fa fa-star checked"></i>
+      <i class="fa fa-star "></i>
+      <i class="fa fa-star "></i>
+      <small>4563 Ratings</small>
+    </div>
+    <p>
+      <b>Wānaka</b> is a popular ski and summer resort town in the South Island of New Zealand.<br>
+      <b>Location:</b>South Island of New Zealand.
+    </p>
+    <h6><strong>Price:</strong><span>&#8377;</span>75,000-1,10,000</h6>
+   <a href="#book">Book Now</a>
+</div>
+</div>
+
+
+
+</div>
+  </div>
+</section>
+<!---section packages end--->
+
+<!---section Servics start--->
+<section class="Services p-3" id="services">
+  <div class="containr">
+    <div class="main-txt">
+      <h1 ><span>S</span>ervices</h1>
+    </div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-md-0">
+          <div class="card" id="one">
+            <i class="fas fa-utensils"></i>
+            <div class="card-body">
+              <h3>Food and drinks</h3>
+              <p>"Food is symbolic of love when words are inadequate."</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-md-0">
+        <div class="card" id="two">
+          <i class="fa fa-hotel"></i>
+          <div class="card-body">
+            <h3>Affordable Hotel</h3>
+            <p>"Hotel Rooms Are a Second Home,Only You Get To Escape."</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 py-md-0">
+      <div class="card" id="three">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+        <div class="card-body">
+          <h3>safty Guide</h3>
+          <p>"Guidelines keep us on the path of safety, leading us away from danger's grasp."</p>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-md-0">
+        <div class="card" id="four">
+          <i class="fa fa-globe-asia"></i>
+          <div class="card-body">
+            <h3>Around the World</h3>
+            <p>"The world is a book, and those who do not travel read only one page." </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 py-md-0">
+      <div class="card" id="five">
+        <i class="fa fa-plane"></i>
+        <div class="card-body">
+          <h3>Fastest Travel</h3>
+          <p>"Every Takeoff Is Optional.Every Landing Is Mandatory"</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 py-md-0">
+    <div class="card" id="six">
+      <i class="fa fa-hiking"></i>
+      <div class="card-body">
+        <h3>Adventures</h3>
+        <p>"The biggest adventure you can take is to live the life of your dreams."</p>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+<!---section services end--->
+<!---section Gallary start--->
+<section class="Gallary p-3" id="gallary">
+  <div class="containr">
+    <div class="main-txt">
+      <h1 ><span>G</span>allary</h1>
+      </div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <div class="img-container">
+              <img src="g1.jpg" alt="" height="230px" width="100%">
+              <div class="img-content">
+                  <a href="link/wiki.html" class="btn btn-success" target="_blank">United Kingdom</a>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <div class="img-container">
+              <img src="in.jpeg" alt="" height="230px" width="100%">
+              <div class="img-content">
+                  <a href="link/wiki3.html" class="btn btn-success" target="_blank">India</a>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <div class="img-container">
+              <img src="pk.jpg" alt="" height="230px" width="100%">
+              <div class="img-content">
+                  <a href="link/wiki5.html" class="btn btn-success" target="_blank">Pakistan</a>
+              </div>
+            </div>
+         </div>
+      </div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <div class="img-container">
+              <img src="italy.jpeg" alt="" height="230px" width="100%">
+              <div class="img-content">
+                  <a href="link/wiki6.html" class="btn btn-success" target="_blank">Italy</a>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <div class="img-container">
+              <img src="ny.jpeg" alt="" height="230px" width="100%">
+              <div class="img-content">
+                  <a href="link/wiki4.html" class="btn btn-success" target="_blank">New york</a>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <div class="img-container">
+              <img src="peru.jpg" alt="" height="230px" width="100%">
+              <div class="img-content">
+                  <a href="link/wiki8.html" class="btn btn-success" target="_blank">Peru</a>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div> 
+      </div>
+</section>
+<!---section Gallary end--->
+<!---About start-->
+<section class="about" id="about">
+  <div class="containr">
+    <div class="main-txt">
+      <h1 >About Us</h1>
+    </div>
+    <div class="container mb-2">
+    <div class="row" style="margin-top: 50px;">
+        <div class="col col-6" id="card_img">
+            <div class="card p-5">
+             <a href="home_1.html"> <img src="Logo.jpg" alt="img" class="card-img-top img-thumbnail"></a>
+            </div>
+        </div>
+        <div class="col col-6">
+           <h4><b>How The CH Travel Agency Works:</b></h4>
+           <p style="font-family: Arial, Helvetica, sans-serif;">The primary role our CH travel agent is to help people make travel arrangements, which might include booking flights, hotels, sightseeing tours, and making dining recommendations.</p>
+           <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><b><span class="text-danger">"</span>A passionate team of travel experts who’ll be there for you before, during and after your return from your perfect trip. We aim at creating authentic travel experiences and providing an individual approach to every client.<span class="text-danger">"</span></b></p>
+            <hr>
+           <h4><b>Facilities:</b></h4>
+           <p>1.<b>Flight Bookings:</b> Travel agencies help customers find and book flights to their desired destinations.</p>
+           <p>2.<b>Accommodation:</b> Travel agencies can assist in finding and booking accommodations such as hotels, resorts, vacation rentals, or other lodging options based on the traveler's preferences and budget.</p>
+           <p>3.<b>Tour Packages:</b> Travel agencies often offer pre-arranged tour packages that include flights, accommodations, guided tours, and activities at various destinations. These packages can be tailored to different types of travelers, such as families, couples, or adventure seekers.</p>
+          </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!---about end--->
+<!---footer start--->
+<div>
+<footer class="text-cener text-lg-start text-white" id="footer">
+<div class="container pt-1 pb-0">
+  <section>
+    <div class="row">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold text-warning">CH Travels</h6>
+          <p>A good plus of traveling is that often you get new skills without difficulty and without even noticing it.</p>
+          <div class="mb-2">
+            <a href="https://instagram.com/ch__travels?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" class="btn btn-outline-light btn-floating m-1 text-white" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ch.travels.2023?mibextid=ZbWKwL" class="btn btn-outline-light btn-floating m-1 text-white" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/Ch43404Ch?t=wh5agriqQcSF1JEMMRojeA&s=08" class="btn btn-outline-light btn-floating m-1 text-white" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://chat.whatsapp.com/DxqvgBC7MGA4WX0YVz6exA" class="btn btn-outline-light btn-floating m-1 text-white" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+      </div>
+      <hr class="w-100 clearfix d-md-none">
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h6>
+          <p>
+            <a class="text-white" href="#book">Booking</a>
+          </p>
+          <p>
+            <a class="text-white" href="#packages">Packages</a>
+          </p>
+          <p>
+            <a class="text-white" href="#services">Services</a>
+          </p>
+          <p>
+            <a class="text-white" href="#gallary">Gallary</a>
+          </p>
+      </div>
+      <hr class="w-100 clearfix d-md-none">
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold text-warning">Contacts</h6>
+        <p><i class="fa fa-home mr-3"></i>Kadapa,517236,A.P</p>
+        <a class="links" href="mailto:Chtravel99@gmail.com"><i class="fa fa-envelope mr-3"></i> Chtravel99@gmail.com</p>
+        <a class="links"><i class="fa fa-phone mr-3"></i>+917995063318</p>
+        <a class="links"><i class="fa fa-phone mr-3"></i>+919392602792</p>
+      </div>
+    </div>
+  </section>
+  <section class="p-3 pt-0">
+    <div class="row d-flex align-items-center" >
+      <div class="col-md-7 col-lg-8 text-center text-md-start">
+        @2023 Copyright:
+      </div>
+    </div>
+  </section>
+</div>
+</footer>
+</div>
+<!---footer end--->
+</body>
+</html>
